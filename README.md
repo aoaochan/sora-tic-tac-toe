@@ -1,8 +1,6 @@
 # sora-tic-tac-toe
 
-<p style="align: center;">
-  <img src="./preview.png" style="height: 256px;" />
-</p>
+<img src="./preview.png" style="height: 256px;" />
 
 ## About the Game
 **sora-tic-tac-toe** is a fan-made game inspired by the world of **Blue Archive**. It's a fun and simple tic-tac-toe game that incorporates themes and characters from the original game.
