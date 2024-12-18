@@ -1,7 +1,7 @@
 # sora-tic-tac-toe
 
 <p style="align: center;">
-  <img src="./preview.png" />
+  <img src="./preview.png" style="height: 256px;" />
 </p>
 
 ## About the Game
