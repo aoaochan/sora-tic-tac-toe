@@ -1,0 +1,122 @@
+html, body, .container, #result {
+    padding: 0;
+    width: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+html {
+    background: url("./assets/back.png");
+}
+
+body {
+    background: url("./assets/sora.png");
+}
+
+.container {
+    background: url("./assets/tic-tac-toe.png");
+}
+
+div.box {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.box.f {
+    top: 190px;
+}
+
+div.box.f.a {
+    
+    left: 428px;
+}
+
+div.box.f.b {
+    width: 60px;
+    left: 496px;
+}
+
+div.box.f.c {
+    left: 570px;
+    top: 186px;
+}
+
+div.box.s {
+    height: 48px;
+    top: 250px;
+}
+
+div.box.s.a {
+    width: 59px;
+    left: 428px;
+}
+
+div.box.s.b {
+    left: 500px;
+}
+
+div.box.s.c {
+    left: 570px;
+    top: 246px;
+}
+
+div.box.t {
+    top: 308px;
+}
+
+div.box.t.a {
+    left: 428px;
+    top: 306px;
+    width: 64px;
+}
+
+div.box.t.b {
+    left: 504px;
+    top: 306px;
+}
+
+div.box.t.c {
+    left: 570px;
+    top: 304px;
+    width: 64px;
+}
+
+button {
+    position: absolute;
+    border: none;
+    font-size: 24px;
+    border-radius: 24px;
+    padding: 10px 25px;
+    right: 24px;
+    bottom: 24px;
+    background-color: #5a7fcf;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #5575bb;
+    color: #fff;
+}
+
+button:active {
+    background-color: #35508b;
+    color: #e6e6e6;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+}
+
+audio {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
